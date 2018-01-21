@@ -51,13 +51,37 @@ Cette section sera conclue par le TD1.
 
 
 
-<!-- 
+
 
 Maths pour la crypto
 ====================
 
+Cette partie de cours s'intéresse principalement aux foncements mathématiques des cryptosystèmes asymétriques basés sur la difficulté du problème de la factorisation des grands nombres entiers et en particulier le cryptosystème RSA l’objet principal des deux séances. 
 
-Extrait du livre [Discrete Math for Computer Science Students, _Ken Bogart, Scot Drysdale, Cliff Stein_](https://web.archive.org/web/20170829125913/http://www.cse.iitd.ernet.in/~bagchi/courses/discrete-book/fullbook.pdf) ? -->
+Chacune des deux séances de TD et TP va se dérouler en deux phases:
+
+*	La première phase vise à comprendre la génération des clés RSA, la justification des choix des paramètres, le chiffrement, le déchiffrement, la preuve d’exactitude et l’évaluation du coût des opérations. Le cryptosystème RSA sera mis en place en TP en utilisant Python 3 et une évaluation de temps d’exécution des opérations de chiffrement déchiffrement en fonction des tailles de clés sera effectuée.
+
+*	La deuxième phase concernera le problème RSA et son lien avec la factorisation des grands nombre entiers. Quelques algorithmes de factorisation basiques seront proposées progressivement en TD et ensuite implémentés, évaluées et comparés en TP.
+
+Pour mieux suivre les différentes preuves et la conception de quelques algorithmes de factorisation, vous devez lire le cours de Marine Minier "Arithmétique pour la cryptographie" disponible sur http://perso.citi.insa-lyon.fr/mminier/images/Arithmetique_pour_Cryptographie_impression.pdf jusqu'à la slide 32. Ce cours donne les bases d’arithmétique nécessaires pour comprendre le cryptosystème RSA et les méthodes de factorisation qui seront traités. Pour la Crible d'Ératosthène, lisez plus de détails sur la page [Wikipedia](https://fr.wikipedia.org/wiki/Crible_d%27%C3%89ratosth%C3%A8ne). Pour la fonction indicatrice d'Euleur, lisez plus de détails sur la page [Wikipedia](https://fr.wikipedia.org/wiki/Indicatrice_d%27Euler).
+
+
+Pour la première phase, relisez attentivement la [page Wikipedia]( https://fr.wikipedia.org/wiki/Chiffrement_RSA) expliquant RSA jusqu’à la section « Asymétrie ». 
+
+Pour la partie problème RSA et factorisation, lisez la [page du problème RSA sur Wikipedia]( https://fr.wikipedia.org/wiki/Probl%C3%A8me_RSA) jusqu’à la section « Lien avec la factorisation ».
+
+Ouverture (obligatoire):
+
+Pour la partie factorisation, lisez le principe de l’algorithme p-1 de Pollard [Page Wikipédia, section principe]( https://fr.wikipedia.org/wiki/Algorithme_p-1_de_Pollard), le principe de l’algorithme de Pollard Rho [Page Wikipédia, section définition formelle]( https://fr.wikipedia.org/wiki/Algorithme_rho_de_Pollard) et le principe de l’algorithme de factorisation de Fermat [Page Wikipédia, sections intuition et méthode de base](https://fr.wikipedia.org/wiki/M%C3%A9thode_de_factorisation_de_Fermat)
+
+
+
+<!-- 
+Extrait du livre [Discrete Math for Computer Science Students, _Ken Bogart, Scot Drysdale, Cliff Stein_](https://web.archive.org/web/20170829125913/http://www.cse.iitd.ernet.in/~bagchi/courses/discrete-book/fullbook.pdf) ? 
+pages de 66 à 82.
+
+-->
 
 <!-- https://www.kth.se/social/files/557ec6b0f27654784e263d66/fullbook.pdf  ,  
 www.cse.iitd.ernet.in/~bagchi/courses/discrete-book/fullbook.pdf -->
